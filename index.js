@@ -367,6 +367,7 @@ console.log(tampilTanggal);
 console.log(tampilWaktu);
 
 const Angga = new WAConnection()
+Angga.version = [2, 2119, 6]
    Angga.on('qr', qr => {
    qrcode.generate(qr, { small: true })
    console.log(color('[','white'),color('∆','red'),color(']','white'),color('QR code is ready, Scan now..','white'),color('Yogiツ','red'),color('X','lime'),color('FxSx','red'))
